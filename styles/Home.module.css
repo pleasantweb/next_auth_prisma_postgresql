@@ -10,8 +10,33 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+ 
 }
-
+button.btn{
+  padding: 10px 30px;
+  outline: none;
+  border: none;
+  background-color: rgb(70, 66, 66);
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  line-height: 1;
+}
+.user{
+  display: flex;
+  align-items: center;
+}
+.user h1{
+  font-size: 2.3rem;
+  font-weight: 100;
+}
+.user img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
 .footer {
   display: flex;
   flex: 1;
